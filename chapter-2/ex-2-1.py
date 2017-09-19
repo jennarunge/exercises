@@ -5,19 +5,14 @@
 # and performs no computations.
 # It will display the name and contact information for a teacher.
 
-# display the full name
-print("Dean Winchester")
+name="Dean Winchester"
+address= "6402 Mistletow Lane"
+city_state_zip="Lawrence, Kansas, 66044"
+phone_number= "678-865-7469"
+course="CIS-121"
 
-# display the address
-print("6402 Mistletow Lane")
-
-# display the city, state and zip
-print("Larence, Kansas, 66044")
-
-# display the phone number
-print("678-865-7469")
-
-# display the course area
-print("CIS-121")
-
-
+print(name)
+print(address)
+print(city_state_zip)
+print(phone_number)
+print(course)
