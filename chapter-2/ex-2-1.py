@@ -11,8 +11,12 @@ city_state_zip="Lawrence, Kansas, 66044"
 phone_number= "678-865-7469"
 course="CIS-121"
 
-print(name)
-print(address)
-print(city_state_zip)
-print(phone_number)
-print(course)
+def print_address():
+    print(name)
+    print(address)
+    print(city_state_zip)
+    print(phone_number)
+    print(course)
+    
+print_address()
+
