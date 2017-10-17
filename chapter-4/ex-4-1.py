@@ -12,7 +12,6 @@
 # Get the number of bugs collected from the user
 # use a for loop to get the number of bugs exactly five times, once for each day
 
-
 	# input bugs collected on this day and convert it to an int
 
     
