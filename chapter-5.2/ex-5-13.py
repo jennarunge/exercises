@@ -40,7 +40,21 @@
 
 # Call the main function to start the program
 
+def main():
+    distance= 0.0
+    print_two_column_header("Time (s)", "Distance (m)")
+    for num in range(0, 10, 1):
+        #ADD SOMETHING HERE
+        distance= falling_distance(num)
+    format(num, '.2f')
+    format(distance, '.2f')
+    print(num, distance, sep='\t')
 
+def print_two_column_header(column_header_one, column_header_two):
+    print(column_header_one, column_header_two, sep='\t')
+    print("------------------")
 
-
-
+def falling_distance(num):
+    distance= num*num*.5*9.8
+    return distance
+main()

@@ -35,7 +35,22 @@
 
 # Call the main function to start the program
 
-
+def main():
+    interger_one= 0
+    integer_two= 0
+    integer_one= int(input("What is the first integer: "))
+    integer_two= int(input("What is the second integer: "))
+    this= greater(integer_one, integer_two)
+    print(this)
+    
+def greater(integer_one, integer_two):
+    if integer_one> integer_two:
+        print(integer_one, "is larger than", integer_two)
+        return integer_one
+    else:
+        print(integer_two, "is larger than", integer_one)
+        return integer_two
+main()
 
 
 
