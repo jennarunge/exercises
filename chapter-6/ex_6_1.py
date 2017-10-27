@@ -28,3 +28,12 @@
 # Call the main function.
 
 
+def main():
+    read_file= ""
+    file_name= ""
+    file_name= open("numbers.txt", "r")
+    read_file = file_name.read()
+    file_name.close()
+    print(read_file)
+    
+main()

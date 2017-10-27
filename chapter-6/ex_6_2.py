@@ -35,4 +35,14 @@
 
 # Call the main function to begin the program
 
-
+def main():
+    line = ""
+    filename =""
+    counter = int(0)
+    filename = input("Enter the file name: ")
+    open(filename, 'r')
+    line = filename.readlines()
+    print(line)
+    file.close()
+    
+main()
