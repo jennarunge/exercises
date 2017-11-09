@@ -6,3 +6,12 @@
 #boooooOOOOOOOOOOOOOOOooooooooooOOOOOOOOOOOoooooooooooOOOOOOOOOOOOOOoooooooOoo!
 #I'm excited for Halloween
 #It's my birthday
+
+def main():
+    o =magic()
+    print(o)
+def magic():
+    number =5
+    return  number + 2 * 10
+
+main()

@@ -43,6 +43,6 @@ def main():
     open(filename, 'r')
     line = filename.readlines()
     print(line)
-    file.close()
+    filename.close()
     
 main()
