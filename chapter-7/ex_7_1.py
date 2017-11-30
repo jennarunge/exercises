@@ -4,30 +4,25 @@
 # This program prompts a user for a sales amount for each day of the week,
 # totals them up, then displays the total formatted as currency.
 
-
-
 # Define the main function
-
     # Define local float variable for rtotal sales
-
-
     # Initialize lists for daily sales and days of the week (7 elements each)
-
     # loop 7 times
-
         # get the daily sales for the current day by name
         # use a function to validate the input can be cast to a float
-
         # add the daily sales to the total
-
-
     # Display total sales; use a $ and format the value to two decimal places
-
-
-
 # Include a function to ensure the program has valid float values
-
-
-
 # Call the main function to start the program
+
+def main():
+    total = 0
+    sales_per_day= [0, 0, 0, 0, 0, 0, 0]
+    for i in range(7):
+        sale = int(input("Enter sales for the day: "))
+        total = sale + total
+        sales_per_day.append(sale)
+
+    print("$", format(total, '.2f'))
+
 main()

@@ -6,12 +6,13 @@
 # and displays the characters in upper case, followed by periods.
 
 # Define the main function
-
+def main():
+    
     # Get a full name as user input
-
+    name = input("Enter your full name: ")
 
     # Split the string on spaces into a list of name parts and assign to a variable
-
+    
 
     # iterate over each name part in the list
 
